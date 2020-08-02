@@ -20,9 +20,11 @@ class Get {
     }
 
 
-    static ValidatableResponse makeRequestwParam(String url, String param, String paramValue, String apikey = Config.getApiKey()) {
+    static ValidatableResponse makeRequestwParam(String url, String param, String paramValue) {
         return given()
-                .header("API-KEY", apikey)
+                .header("x-rapidapi-key", Config.getApiKey())
+                .header("x-rapidapi-host", Config.getApiHost())
+                .header("useQueryString", "true")
                 .header("Content-Type", "application/json")
                 .param(param, paramValue)
                 .when()

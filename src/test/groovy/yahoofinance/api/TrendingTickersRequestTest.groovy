@@ -15,9 +15,18 @@ class TrendingTickersRequestTest {
 
     @Story("Get getAll shipments and validate schema")
     @Test(groups = Groups.monitoring)
-    void getShipment() {
+    void getTrendingTickersOfUnitedStates() {
         TrendingTickersGetRequest
                 .byRegion("US")
+                .validateTickerTrendingResponseSchema()
+                .assertStatusCode(200)
+    }
+
+    @Story("Get getAll shipments and validate schema")
+    @Test(groups = Groups.monitoring)
+    void getTrendingTickersOfFrance() {
+        TrendingTickersGetRequest
+                .byRegion("FR")
                 .validateTickerTrendingResponseSchema()
                 .assertStatusCode(200)
     }

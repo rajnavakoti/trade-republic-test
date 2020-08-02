@@ -39,15 +39,15 @@
                       "default" : null
                     },
                     "regularMarketPrice": {
-                      "type" : "string",
+                      "type" : "number",
                       "default" : null
                     },
                     "regularMarketTime": {
-                      "type" : "string",
+                      "type" : "integer",
                       "default" : null
                     },
                     "regularMarketChange": {
-                      "type" : "string",
+                      "type" : "number",
                       "default" : null
                     },
                     "marketState": {
@@ -59,7 +59,7 @@
                       "default" : null
                     },
                     "exchangeDataDelayedBy": {
-                      "type" : "string",
+                      "type" : "integer",
                       "default" : null
                     },
                     "market": {
@@ -67,7 +67,7 @@
                       "default" : null
                     },
                     "sourceInterval": {
-                      "type" : "string",
+                      "type" : "integer",
                       "default" : null
                     },
                     "exchangeTimezoneName": {
@@ -79,15 +79,15 @@
                       "default" : null
                     },
                     "gmtOffSetMilliseconds": {
-                      "type" : "string",
+                      "type" : "integer",
                       "default" : null
                     },
                     "regularMarketChangePercent": {
-                      "type" : "string",
+                      "type" : "number",
                       "default" : null
                     },
                     "regularMarketPreviousClose": {
-                      "type" : "string",
+                      "type" : "number",
                       "default" : null
                     },
                     "fullExchangeName": {
@@ -95,11 +95,11 @@
                       "default" : null
                     },
                     "esgPopulated": {
-                      "type" : "string",
+                      "type" : "boolean",
                       "default" : null
                     },
                     "tradeable": {
-                      "type" : "string",
+                      "type" : "boolean",
                       "default" : null
                     },
                     "symbol": {

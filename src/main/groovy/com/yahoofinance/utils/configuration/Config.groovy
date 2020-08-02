@@ -9,7 +9,11 @@ class Config {
     }
 
     static String getApiKey() {
-        getKey("apiKey", getEnvironment())
+        getKey("YahooFinanaceAPIKey", getEnvironment())
+    }
+
+    static String getApiHost() {
+        getKey("YahooFinanaceAPIHost", getEnvironment())
     }
 
     static getYahooFinanaceApiURL() {
