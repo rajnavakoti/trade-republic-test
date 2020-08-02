@@ -2,9 +2,6 @@ package com.yahoofinance.api.basic
 
 import com.yahoofinance.utils.configuration.Config
 import io.restassured.response.ValidatableResponse
-
-import static io.restassured.RestAssured.given
-import static io.restassured.RestAssured.given
 import static io.restassured.RestAssured.given
 
 class Get {
@@ -18,7 +15,6 @@ class Get {
                 .get(url)
                 .then()
     }
-
 
     static ValidatableResponse makeRequestwParam(String url, String param, String paramValue) {
         return given()

@@ -8,7 +8,6 @@ import io.qameta.allure.Story
 import org.openqa.selenium.WebDriver
 import org.testng.annotations.Test
 
-
 class TrendingTickersTest extends BaseTest {
 
     HomePage homePage
@@ -22,6 +21,6 @@ class TrendingTickersTest extends BaseTest {
         homePage.visitHomePage()
         homePage.acceptPopupMessage()
         trendingTickersPage = homePage.clickTrendingTickersLink()
-//        trendingTickersPage.assertTrendingTrackerDashboardAccessibility()
+        trendingTickersPage.assertTrendingTrackerDashboardAccessibility()
     }
 }

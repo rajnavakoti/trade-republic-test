@@ -6,6 +6,7 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 
 class HomePage {
+
     WebDriver driver
 
     By trendingTickersLink = By.xpath("//a[contains(@href,'trending-tickers')]")
@@ -33,7 +34,4 @@ class HomePage {
         driver.findElement(trendingTickersLink).click()
         return new TrendingTickersPage(driver)
     }
-
-
-
 }

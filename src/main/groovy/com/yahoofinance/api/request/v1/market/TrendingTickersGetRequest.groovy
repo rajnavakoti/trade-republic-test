@@ -10,7 +10,6 @@ class TrendingTickersGetRequest {
     static ValidatableResponse getResponse
     static int countOfTrendingTickers
     static listOfTrendingSymbols =[]
-    static int i
 
     @Step("Get trending tickets by region")
     static def byRegion(String region) {
@@ -33,5 +32,4 @@ class TrendingTickersGetRequest {
         }
         return listOfTrendingSymbols
     }
-
 }

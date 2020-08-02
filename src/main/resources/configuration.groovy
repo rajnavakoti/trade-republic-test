@@ -1,4 +1,8 @@
-//environment Variables
+/*
+Below environment variables can be provided externally (jenkins)
+ or if run locally, it will consider the default values provided below
+ */
+
 executionEnvironment = System.getenv("ENV_EXECUTION") ?: "local"
 environment = System.getenv("TEST_ENVIRONMENT") ?: "prod"
 isdevelopbackend = System.getenv("DEVELOP_BACKEND") ?: false

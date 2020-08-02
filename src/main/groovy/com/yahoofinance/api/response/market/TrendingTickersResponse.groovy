@@ -1,6 +1,5 @@
 package com.yahoofinance.api.response.market
 
-
 import io.qameta.allure.Step
 import io.restassured.response.ValidatableResponse
 

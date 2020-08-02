@@ -39,6 +39,5 @@ class TrendingTickersPage {
         for(int i in 0..(fromApi.size()-1)){
             Assert.assertEquals(fromApi.get(i).toString(),fromApp.get(i).toString())
         }
-
     }
 }

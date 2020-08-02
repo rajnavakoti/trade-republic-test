@@ -3,7 +3,6 @@ package com.yahoofinance
 import com.yahoofinance.utils.configuration.Config
 
 class EndPoints {
-
     private static String YAHOO_FINANCE_API_URL = Config.getYahooFinanaceApiURL()
     private static String YAHOO_FINANCE_APP_URL = Config.getYahooFinanaceAppURL()
 
