@@ -1,0 +1,123 @@
+{
+  "type" : "object",
+  "properties" : {
+    "finance": {
+      "type" : "object",
+      "properties" : {
+        "result" : {
+          "type" : "array",
+          "items" : {
+            "type" : "object",
+            "properties" : {
+              "count" : {
+                "type" : "integer",
+                "default" : null
+              },
+              "quotes" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "object",
+                  "properties" : {
+                    "language": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "region": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "quoteType": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "quoteSourceName": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "shortName": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "regularMarketPrice": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "regularMarketTime": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "regularMarketChange": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "marketState": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "exchange": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "exchangeDataDelayedBy": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "market": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "sourceInterval": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "exchangeTimezoneName": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "exchangeTimezoneShortName": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "gmtOffSetMilliseconds": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "regularMarketChangePercent": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "regularMarketPreviousClose": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "fullExchangeName": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "esgPopulated": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "tradeable": {
+                      "type" : "string",
+                      "default" : null
+                    },
+                    "symbol": {
+                      "type" : "string",
+                      "default" : null
+                    }
+                  }
+
+                }
+
+              }
+
+            }
+          }
+
+        }
+      }
+    }
+
+  }
+}
