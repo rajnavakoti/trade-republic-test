@@ -34,6 +34,7 @@ This repository meant for trade republic QA Automation Test.
 
 - Project has been developed using groovy. Java has to be installed on the machine.
 - jdk-13+ preferable
+- gradle (required if you want to run from cmd)
 - git (optional)
 
 ## Running the tests
