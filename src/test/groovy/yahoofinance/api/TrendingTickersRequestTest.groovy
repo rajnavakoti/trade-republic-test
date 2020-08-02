@@ -7,7 +7,7 @@ import org.testng.annotations.Test
 
 class TrendingTickersRequestTest {
 
-    @Story("Get getAll shipments and validate schema")
+    @Story("Get top trending tickers of United states and validate schema")
     @Test(groups = Groups.monitoring)
     void getTrendingTickersOfUnitedStates() {
         TrendingTickersGetRequest
@@ -16,7 +16,7 @@ class TrendingTickersRequestTest {
                 .assertStatusCode(200)
     }
 
-    @Story("Get getAll shipments and validate schema")
+    @Story("Get top trending tickers of France and validate schema")
     @Test(groups = Groups.monitoring)
     void getTrendingTickersOfFrance() {
         TrendingTickersGetRequest

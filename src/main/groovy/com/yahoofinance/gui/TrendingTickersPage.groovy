@@ -25,7 +25,7 @@ class TrendingTickersPage {
         Assert.assertTrue(driver.findElement(dashboardLocator).displayed)
     }
 
-    @Step("check the trending tickers dashboard is displayed for the user")
+    @Step("read the list of trending tickers displayed on dashboard")
     List getTopTrendingTickerFromDashboard(){
         List<WebElement> rows = driver.findElements(tableRows)
         for (WebElement row : rows){
@@ -35,6 +35,7 @@ class TrendingTickersPage {
         return dashboardTrendingTickersList.subList(0,20)
     }
 
+    @Step("verify dashboard results with api response")
     static void assertMatchApiAndAppData(List fromApi, List fromApp){
         for(int i in 0..(fromApi.size()-1)){
             Assert.assertEquals(fromApi.get(i).toString(),fromApp.get(i).toString())

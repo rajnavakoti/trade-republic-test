@@ -14,7 +14,7 @@ class topTickersTest extends BaseTest {
     TrendingTickersPage trendingTickersPage
     WebDriver driver
 
-    @Story("Get getAll shipments and validate schema")
+    @Story("Verify the API response of trending tickers matches with dashboard details displayed on the webpage")
     @Test(groups = Groups.monitoring)
     void verifyTrendingTickersAreDisplayedOnDashboard() {
 //        Fetching top trending tickers using API
