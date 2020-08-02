@@ -16,7 +16,7 @@ FailScreenShotPath = System.getenv("Fail_Screenshot_Path") ?: "screenshots//"
 
 environments {
     prod {
-        YahooFinanaceAppUrl = "https://finance.yahoo.com/trending-tickers"
+        YahooFinanaceAppUrl = "https://finance.yahoo.com"
         YahooFinanaceApiUrl = "https://apidojo-yahoo-finance-v1.p.rapidapi.com"
         YahooFinanaceAPIKey = "51346c5577msh8ac38b35b55c66fp1390c9jsnf499b4c5e970"
         YahooFinanaceAPIHost = "apidojo-yahoo-finance-v1.p.rapidapi.com"

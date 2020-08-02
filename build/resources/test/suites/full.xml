@@ -25,7 +25,7 @@
     </test>
     <test name="UseCase Tests" parallel="classes" thread-count="6">
         <packages>
-            <package name="yahoofinance.testCases.*"/>
+            <package name="yahoofinance.usecases.*"/>
         </packages>
     </test>
 </suite>

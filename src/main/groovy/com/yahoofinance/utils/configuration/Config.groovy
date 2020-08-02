@@ -21,6 +21,11 @@ class Config {
             getKey("YahooFinanaceApiUrl", getEnvironment())
     }
 
+    static getYahooFinanaceAppURL() {
+        if (getEnvironment().equals('prod') || getEnvironment().equals('production'))
+            getKey("YahooFinanaceAppUrl", getEnvironment())
+    }
+
     static getBrowser() {
         return getKey("browser")
     }
