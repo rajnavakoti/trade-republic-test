@@ -7,7 +7,7 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
-ext.testFile = System.getProperty('Test_Suite') ?: 'monitoring.xml'
+ext.testFile = System.getProperty('Test_Suite') ?: 'full.xml'
 
 buildscript {
     repositories {
