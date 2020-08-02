@@ -88,6 +88,6 @@ This repository meant for trade republic QA Automation Test.
     - method,variable names: pascal cassing
 	- Documentation: @story, @step
 	- Logging & Reporting: Allure html test report
-	- 2 space indentation
+	- 1 liner indentation
 	- Suite setup and teardown mandatory for every test file
 	- Config/variable/data files usage
