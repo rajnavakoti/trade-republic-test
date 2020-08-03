@@ -6,7 +6,7 @@ This repository meant for trade republic QA Automation Test.
 
 ## Short summary
 - As I don't posses the experience of automating web socket, So I choose API + web automation
-- I choose `Yahoo finance` for automation, they provide both API & web application and it's closed related to trade republic business
+- I choose `Yahoo finance` for automation, they provide both API & web application and yahoo finance is closely related to trade republic business
 - The topic I selected is `Trending Tickers`
 
 ## Test cases automated:
