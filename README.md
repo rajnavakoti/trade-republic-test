@@ -33,8 +33,8 @@ This repository meant for trade republic QA Automation Test.
 ## Prerequisites
 
 - Project has been developed using groovy. Java has to be installed on the machine.
-- jdk-13+ preferable
-- gradle (required if you want to run from cmd)
+- java (1.8.0_261 recommended)
+- gradle (required if you want to run from gradle clean test. 6.5.1 recommended)
 - git (optional)
 
 ## Running the tests
@@ -49,6 +49,7 @@ This repository meant for trade republic QA Automation Test.
   1. `git clone https://github.com/rajnavakoti/trade-republic-test.git`
   2. open the project in any IDE
   3. run build.gradle
+  4. or run full.xml (/test/resources/suites)
   
 - Project is ready to run on jenkins and docker
 
