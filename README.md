@@ -33,8 +33,8 @@ This repository meant for trade republic QA Automation Test.
 ## Prerequisites
 
 - Project has been developed using groovy. Java has to be installed on the machine.
-- java (1.8.0_261 recommended)
-- gradle (required if you want to run from gradle clean test. 6.5.1 recommended)
+- java (jdk 1.8+ recommended)
+- gradle (required if you want to run from gradle clean test. 6.5+ recommended)
 - git (optional)
 
 ## Running the tests
